@@ -1,23 +1,4 @@
-Language: Cpp
-AlignTrailingComments: true
-BraceWrapping: 
-  AfterClass: false
-  AfterControlStatement: false
-  AfterEnum: false
-  AfterFunction: false
-  AfterNamespace: false
-  AfterStruct: false
-BreakConstructorInitializers: BeforeComma
-BreakStringLiterals: true
-FixNamespaceComments: true
-IndentWidth: 2
+BasedOnStyle: Google
+DerivePointerAlignment: false
 PointerAlignment: Left
-SpaceBeforeAssignmentOperators: true
-SpaceBeforeCtorInitializerColon: true
-SpaceBeforeParens: true
-SpaceBeforeRangeBasedForLoopColon: true
-SpaceInEmptyParentheses: false
-SpacesBeforeTrailingComments: 2
-SpacesInAngles: false
-SpacesInParentheses: false
-SpacesInSquareBrackets: false
+ColumnLimit: 120
